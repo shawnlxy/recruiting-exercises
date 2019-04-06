@@ -69,7 +69,6 @@ public class InventoryAllocator {
             if (this.totalInventory.getOrDefault(key, 0) < val) {
                 return false;
             }
-            System.out.println(key + ":" + this.totalInventory.get(key));
         }
         return true;
     }
